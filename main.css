@@ -1,0 +1,395 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+.container{
+margin: 0;
+padding-bottom: 120px;
+}
+.main{
+background-image: url(./img/human-resources-talent-management-recruitment-business-concept\ 2.png);
+background-size: cover;
+background-position: center;
+padding: 180px 647px 200px 127px;  
+}
+.site_header{
+display: flex;
+border-bottom: 1px solid rgba(96, 96, 96, 0.2)    
+}
+.burger_menu{
+  display: none;
+}
+.header_a{
+padding: 25px 150px;
+font-family:monserrat, sans-serif;
+font-size: 12px;
+line-height: 15px;
+color: #0A0A0A;
+text-decoration: none;      
+}
+.header_content{
+list-style: none;
+display: flex;
+padding-left: 540px;
+}
+.header_li{
+font-family:monserrat, sans-serif;
+padding: 25px;
+}
+.header_li:nth-child(3){
+box-sizing: border-box;
+margin: 19px 0;
+padding: 8px 12px;
+height: 36px;
+border: 2px solid #0A0A0A;
+border-radius: 8px;
+}
+.header_li:nth-child(4){
+margin: 19px 10px;
+padding: 8px 12px;
+height: 24px;
+background:  #6E79B7;
+border-radius: 8px;
+color: #FFFFFF;
+}
+.header_nav{
+padding-left: 127px ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.header_vector{
+  display: none;
+}
+.header_ul{
+list-style: none;
+display: flex;
+}
+.header_list{
+font-family:monserrat, sans-serif;
+padding: 0px 16px;
+}
+.header_list:last-child{
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+}
+.main_title{
+font-family:monserrat, sans-serif;
+font-weight: 900;
+font-size: 43px;
+line-height: 52px;  
+padding-bottom: 12px;
+color: rgba(255, 255, 255, 1);      
+}
+.main_paragraph{
+font-family:monserrat, sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+padding: 12px 0px;
+color: rgba(255, 255, 255, 1);
+}
+.main_link{
+font-family:monserrat, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+padding: 12px;
+border-radius: 4px;
+background: linear-gradient(234.47deg, #015670 2.71%, #161722 117.85%);
+text-align: center;
+text-decoration: none;
+color: rgba(255, 255, 255, 1);
+}
+.benefit_box{
+display: flex;        
+}
+.benefit_boxes{
+border-radius: 10px;
+background: linear-gradient(268.39deg, #069A95 -43.87%, #6E79B7 101.99%);
+box-shadow: 6px 6px rgba(252, 204, 107, 1);
+margin: 15px;       
+}
+.benefit_picture{
+align-items: center;
+}
+.benefit_img{
+align-items: center;
+border-radius: 10px;
+padding: 15px;
+}
+.benefit_title{
+font-family:monserrat, sans-serif;
+font-size: 43px;
+font-weight: 900;
+line-height: 52px;
+color: rgba(110, 121, 183, 1);
+text-align: center;
+}
+.benefit_titles{
+font-family:monserrat, sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}        
+.benefit_paragraph{
+font-family:monserrat, sans-serif;
+font-size: 18px;
+line-height: 22px;
+font-weight: 400;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+.content_h{
+font-family:monserrat, sans-serif;
+text-align: center;
+align-items: center;
+font-weight: 700;
+font-size: 43px;
+line-height: 120%;
+color: rgba(6, 154, 149, 1);
+}
+.content_img{
+border-radius: 32px;
+margin:0 180px;
+}
+.content_p{
+font-family:monserrat, sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+}
+.cs_section{
+margin: 0 50px;
+background-repeat: no-repeat;
+background-image: url("data:image/svg+xml,%3Csvg width='1436' height='849' viewBox='0 0 1436 849' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' width='1447' height='849' fill='url(%23paint0_linear_485_7336)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_485_7336' x1='1447.5' y1='55.33' x2='296.421' y2='1456.02' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23015670'/%3E%3Cstop offset='1' stop-color='%23161722'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+padding-bottom: 32px;
+}
+.cs_h{
+font-family:monserrat, sans-serif;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 16px;
+font-weight: 900;
+font-size: 43px;
+line-height: 120%;
+color: #FFFFFF;
+}
+.cs_h1{
+font-family:monserrat, sans-serif;
+text-align: center;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+color: #FFFFFF;
+}
+.cs_span{
+color: #FFC121;
+padding-right: 32px;
+}
+.cs_li{
+font-family:monserrat, sans-serif;
+padding: 16px;
+padding-left: 110px;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+list-style: none;
+color: #FFFFFF;
+}
+.cs_li:last-child{
+border-bottom: 3px solid #FFC121;
+width: 80%;
+padding-bottom:120px;
+}
+.footer_main{
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 44%, rgba(218,218,229,1) 100%);
+padding-left: 130px;
+}  
+.footer_img{
+padding-bottom: 15px;
+}
+.footer_main_box{
+display: flex;
+}
+.footer_box{
+display: inline-block;
+}
+.footer_second_box{
+display: flex;
+border-top: 2px solid rgba(96, 96, 96, 0.2)    
+}
+.footer_icone{
+text-decoration: none;
+padding: 30px 15px;
+}
+.footer_icone:first-child{
+padding-left: 0px;
+}
+.footer_list{
+font-family:monserrat, sans-serif;
+list-style: none;
+font-size: 14px;
+line-height: 18px;
+font-weight: 500;
+color: black;
+padding: 8px 50px;    
+}
+.footer_link{
+font-family:monserrat, sans-serif;
+text-decoration: none;
+color: rgba(96, 96, 96, 1);
+}
+.footer_paragraph{
+font-family:monserrat, sans-serif;
+font-size: 12px;
+line-height: 15px;
+font-weight: 500;
+color: rgba(96, 96, 96, 1);
+text-align: center;
+}
+.second_paragraph{
+font-family:monserrat, sans-serif;
+padding-right: 468px;
+}
+.footer_span{
+padding-left: 25px;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 992px){
+             
+.main {
+padding: 100px 20px;
+}            
+.header_content {
+padding-left: 300px;
+}            
+.header_a {
+padding: 20px;
+}            
+.header_li {
+padding: 20px;
+}            
+.header_nav {
+padding: 20px;
+}
+.header {
+display: flex;
+margin: 0 15px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}   
+.navbar {
+flex-direction: column;
+align-items: center;
+}   
+.nav-item {
+margin-bottom: 10px;
+}   
+.main_title {
+font-size: 24px;
+}   
+.main_paragraph {
+font-size: 16px;
+}   
+.main_link {
+margin-top: 10px;
+margin-bottom: 20px;
+}    
+.content_h {
+font-size: 20px;
+}    
+.content_img {
+max-width: 85%;
+margin-left: 50px;
+} 
+.content_p {
+font-size: 18px;
+} 
+.cs_h {
+font-size: 20px;
+} 
+.cs_h1 {
+font-size: 18px;
+} 
+.cs_li {
+font-size: 20px;
+} 
+.cs_span {
+font-size: 14px;
+}   
+.benefit_title {
+font-size: 25px;
+} 
+.benefit_titles {
+font-size: 18px;
+} 
+.benefit_paragraph {
+font-size: 20px;
+}
+.benefit_img{
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+}
+.footer_main{
+width: 100%;
+}
+}
+@media(max-width: 767px){
+.site_header .header_content {
+display: none;
+}
+.burger_menu {
+display: block;
+}
+.header_a{
+display: none;
+}
+.header_ul{
+display: none;
+}
+.header_img{
+display: none;
+}
+.header_vector{
+display: block;
+}
+.cs_section{
+margin: 0;
+}  
+}
+@media(max-width: 567px) {
+.cs_section{
+  margin: 0 -100px;
+}
+.footer_main{
+padding-left: 0;
+}
+.benefit_box{
+display: block;    
+  }
+.footer_main_box{
+display: block;   
+}
+.footer_second_box{
+display: block;
+ }
+ .footer_list{
+  padding-left: 0;
+ }
+}
+
+ 
+   
+  
+        
